@@ -1,0 +1,156 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+header{
+    background-color: black;
+    font-family: Helvetica, serif;
+    font-size: 22px;
+    color: seashell;
+    opacity: 0.9;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: row;
+    height: 69px;
+    margin-right: 10px;
+}
+.logo{
+    height: 50px;
+    margin-left: 10px;
+}
+body {
+    background-color: black;
+    font-family: Helvetica, serif;
+    font-size: 22px;
+    color: seashell;
+    opacity: 0.9;
+}
+
+.link {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+.mission {
+    width: 1200px; /* Set the desired width */
+    height: 700px; /* Set the desired height */
+    margin: 0 auto; /* Centers the container horizontally */
+    background-image: url('https/../images/img-mission-background.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-content: center;
+  }
+
+  .mission1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-content: center;
+    width: 1200px;
+    border: 1px solid black;
+    background-color: black;
+    margin: 0 auto;
+  }
+  .mission1 h2, 
+  .mission1 h4{
+    margin: 5px;
+    padding: 10px 0;
+  }
+
+  
+.tea-of-month{
+    text-align: center;
+    padding: 20px;
+    margin: 0 auto;
+    width: 1000px;
+}
+.tea-of-month h2{
+    margin-top: 69px;
+    margin-bottom: 20px;
+}
+.tea-of-month h4{
+    margin-bottom: 20px;
+}
+
+.tea{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+}
+
+.tea1{
+    width: 300px;
+    text-align: center;
+    flex-basis: calc(33.33% - 20px); /* Three items in the first row */
+}
+.tea1 img{
+    width: 300px;
+    height: 200px;
+}
+.tea1 h4{
+    margin-top: 10px;
+}
+
+
+.locat {
+    background-image: url('https/../images/img-locations-background.jpg');
+    background-size: cover; /* Ensures the image covers the entire element */
+    background-position: center; /* Centers the image */
+    background-repeat: no-repeat; /* Prevents the image from repeating */
+    height: 500px; /* Set a height for the container */
+    width: 1200px; /* Set a width for the container */
+    margin: 0 auto; /* Centers the container horizontally */
+    padding: 30px;
+  }
+  
+  .locat h2{
+    align-items: center;
+    text-align: center;
+    padding: 0;
+  }
+
+  .locat1{
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    gap: 30px;  
+    line-height: 3; 
+  }
+
+  .location1{
+    background-color: black;
+    width: 300px;
+    text-align: center;
+    margin-top: 15px;
+    margin: 10px;
+    opacity: 1;
+  }
+
+  .foot{
+    text-align: center;
+    height: 200px;
+    margin: 20px;
+  }
+  .foot h2{
+    margin-bottom: 40px;
+  }
+  .foot h5{
+    margin: 20px;
+  }
+
+  .copyright{
+    text-align: left;
+    margin-left: 20px;
+    margin-bottom: 30px;
+  }
